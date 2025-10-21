@@ -15,5 +15,6 @@
     <toc-element topic="C-NET-Basics.md">
         <toc-element topic="Basic-Structure-of-a-C-Program.md"/>
         <toc-element topic="Methods-and-Properties-of-the-Console-Class.md"/>
+        <toc-element topic="Data-Types-in-C.md"/>
     </toc-element>
 </instance-profile>
