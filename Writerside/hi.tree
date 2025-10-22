@@ -3,7 +3,7 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
 <instance-profile id="hi"
-                 name="Help Instance"
+                 name="C#.Net"
                  start-page="Default-topic.md">
 
     <toc-element topic="Default-topic.md">
@@ -16,5 +16,7 @@
         <toc-element topic="Basic-Structure-of-a-C-Program.md"/>
         <toc-element topic="Methods-and-Properties-of-the-Console-Class.md"/>
         <toc-element topic="Data-Types-in-C.md"/>
+        <toc-element topic="Literals-in-C.md"/>
+        <toc-element topic="Type-Casting-in-C.md"/>
     </toc-element>
 </instance-profile>
