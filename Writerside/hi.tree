@@ -18,5 +18,7 @@
         <toc-element topic="Data-Types-in-C.md"/>
         <toc-element topic="Literals-in-C.md"/>
         <toc-element topic="Type-Casting-in-C.md"/>
+        <toc-element topic="Variables-in-C.md"/>
+        <toc-element topic="Operators.md"/>
     </toc-element>
 </instance-profile>
