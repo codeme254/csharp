@@ -20,5 +20,9 @@
         <toc-element topic="Type-Casting-in-C.md"/>
         <toc-element topic="Variables-in-C.md"/>
         <toc-element topic="Operators.md"/>
+        <toc-element topic="Control-Flow-Statements.md"/>
+        <toc-element topic="Selection-Statements.md"/>
+        <toc-element topic="Iteration-Statements.md"/>
+        <toc-element topic="break-and-continue-statements.md"/>
     </toc-element>
 </instance-profile>
