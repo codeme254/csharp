@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rules SYSTEM "https://resources.jetbrains.com/writerside/1.0/redirection-rules.dtd">
+<rules>
+    <!-- format is as follows
+    <rule id="<unique id>">
+        <accepts>page.html</accepts>
+    </rule>
+    -->
+    <rule id="51085449">
+        <description>Created after removal of "Call by value vs Call by reference" from C#.Net</description>
+        <accepts>Call-by-value-vs-Call-by-reference.html</accepts>
+    </rule>
+</rules>

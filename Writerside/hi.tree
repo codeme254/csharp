@@ -24,5 +24,7 @@
         <toc-element topic="Selection-Statements.md"/>
         <toc-element topic="Iteration-Statements.md"/>
         <toc-element topic="break-and-continue-statements.md"/>
+        <toc-element topic="Functions.md"/>
+        <toc-element topic="Strings-in-C.md"/>
     </toc-element>
 </instance-profile>
