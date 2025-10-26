@@ -26,5 +26,9 @@
         <toc-element topic="break-and-continue-statements.md"/>
         <toc-element topic="Functions.md"/>
         <toc-element topic="Strings-in-C.md"/>
+        <toc-element topic="Const-and-Read-Only-in-C.md"/>
+        <toc-element topic="Properties-in-C.md"/>
+        <toc-element topic="Overriding-the-ToString-Method-in-C.md"/>
+        <toc-element topic="Overriding-the-Equals-Method-in-C.md"/>
     </toc-element>
 </instance-profile>
