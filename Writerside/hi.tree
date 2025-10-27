@@ -30,5 +30,8 @@
         <toc-element topic="Properties-in-C.md"/>
         <toc-element topic="Overriding-the-ToString-Method-in-C.md"/>
         <toc-element topic="Overriding-the-Equals-Method-in-C.md"/>
+        <toc-element topic="Checked-and-Unchecked-Keywords.md"/>
+        <toc-element topic="Stack-and-Heap-Memory.md"/>
+        <toc-element topic="Boxing-and-Unboxing-in-C.md"/>
     </toc-element>
 </instance-profile>
