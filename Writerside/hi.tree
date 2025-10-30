@@ -39,5 +39,7 @@
         <toc-element topic="Constructors-in-C.md"/>
         <toc-element topic="Types-of-Constructors-in-C.md"/>
         <toc-element topic="Static-vs-Non-Static-Constructors.md"/>
+        <toc-element topic="Destructors.md"/>
+        <toc-element topic="Garbage-Collection-in-NET-Framework.md"/>
     </toc-element>
 </instance-profile>
