@@ -42,5 +42,7 @@
         <toc-element topic="Destructors.md"/>
         <toc-element topic="Garbage-Collection-in-NET-Framework.md"/>
         <toc-element topic="Access-Specifiers.md"/>
+        <toc-element topic="Encapsulation.md"/>
+        <toc-element topic="Abstraction.md"/>
     </toc-element>
 </instance-profile>
