@@ -47,5 +47,6 @@
         <toc-element topic="Inheritance.md"/>
         <toc-element topic="Types-of-Inheritance.md"/>
         <toc-element topic="Abstract-Classes-and-Methods.md"/>
+        <toc-element topic="Interface.md"/>
     </toc-element>
 </instance-profile>
