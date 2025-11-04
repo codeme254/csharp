@@ -165,6 +165,51 @@ inheritance.
 
 C# does not support multiple inheritance through classes.
 
+We can achieve multiple inheritance in C# through interfaces; [Learn more about interfaces here](Interface.md).
+
+A class can have one and only one immediate parent class, whereas the same class can have any number of interfaces
+as its parent.
+
+### Example of Multiple Inheritance
+```C#
+using System;
+
+namespace MultipleInheritance
+{
+    interface IAnimal
+    {
+        void Eat();
+    }
+
+    interface IPet
+    {
+        void Play();
+    }
+
+    class Dog: IAnimal , IPet
+    {
+        public void Eat()
+        {
+            Console.WriteLine("Animal eating");
+        }
+
+        public void Play()
+        {
+            Console.WriteLine("Pet playing");
+        }
+    }
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Dog d = new Dog();
+            d.Eat();
+            d.Play();
+        }
+    }
+}
+```
+
 ## Hybrid inheritance
 Hybrid Inheritance is the inheritance that is the combination of any Single, Hierarchical, and Multilevel inheritances.
 
