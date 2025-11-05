@@ -49,5 +49,6 @@
         <toc-element topic="Abstract-Classes-and-Methods.md"/>
         <toc-element topic="Interface.md"/>
         <toc-element topic="Polymorphism.md"/>
+        <toc-element topic="Partial-Class-and-Partial-Methods.md"/>
     </toc-element>
 </instance-profile>
