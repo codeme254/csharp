@@ -29,7 +29,7 @@ The examples are int, char, boolean, and float which store numbers, alphabets, t
 numbers respectively.
 
 The value data types in C# again classified into two types are as follows:
-- **Predefined data types**: The value data types in C# again classified into two types are as follows
+- **Predefined data types**: Example includes Integer, Boolean, Boolean, Long, Double, Float, etc.
 - **User-defined data types**: Example includes Structure, Enumerations, etc.
 
 Following are some value data types in C#:
@@ -123,6 +123,24 @@ namespace DataTypes
         {
             char studentGrade = 'A';
             Console.WriteLine(studentGrade);
+        }
+    }
+}
+```
+
+Unicode is also allowed;
+
+```c#
+using System;
+
+namespace DataTypes
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            char c2 = '\u0061';
+            Console.WriteLine(c2);
         }
     }
 }
@@ -267,7 +285,7 @@ As for the unsigned version of the above data types, ref the code below.
 
 Remember **ushort** is alias to **UInt16**, **uint** is alias to **UInt16** and **ulong** is alias to **UInt64**.
 
-Also, **short** is alias to **Int16**, **int** is alias to **Int16** and **long** is alias to **Int64**.
+Also, **short** is alias to **Int16**, **int** is alias to **Int32** and **long** is alias to **Int64**.
 ```C#
 using System;
 
