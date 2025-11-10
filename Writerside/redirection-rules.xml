@@ -10,4 +10,8 @@
         <description>Created after removal of "Call by value vs Call by reference" from C#.Net</description>
         <accepts>Call-by-value-vs-Call-by-reference.html</accepts>
     </rule>
+    <rule id="120c9f91">
+        <description>Created after removal of "Events, Delegates and Lambda Expressions" from C#.Net</description>
+        <accepts>Events-Delegates-and-Lambda-Expressions.html</accepts>
+    </rule>
 </rules>
