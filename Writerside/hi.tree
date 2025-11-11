@@ -63,4 +63,5 @@
         <toc-element topic="Inner-Exception.md"/>
     </toc-element>
     <toc-element topic="Delegates-and-Lambda-Expressions.md"/>
+    <toc-element topic="Multithreading.md"/>
 </instance-profile>
