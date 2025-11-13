@@ -14,4 +14,8 @@
         <description>Created after removal of "Events, Delegates and Lambda Expressions" from C#.Net</description>
         <accepts>Events-Delegates-and-Lambda-Expressions.html</accepts>
     </rule>
+    <rule id="2647e9f4">
+        <description>Created after removal of "Delegates and Lambda Expressions" from C#.Net</description>
+        <accepts>Delegates-and-Lambda-Expressions.html</accepts>
+    </rule>
 </rules>
