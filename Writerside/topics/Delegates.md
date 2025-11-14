@@ -53,6 +53,8 @@ There are two types of delegates in C# which we will discuss in details later:
 - **Singlecast delegates/Unicast delegates**: refers to a delegate that invokes only one method.
 - **Multicast delegates**: refers to a delegate that is used for invoking multiple methods.
 
+Note: all the examples used throughout this section are Singlecast delegates.
+
 ## How to Create a Delegate
 We can create a delegate using the **delegate** keyword.
 
