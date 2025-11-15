@@ -66,6 +66,9 @@
         <toc-element topic="Delegates.md"/>
         <toc-element topic="Multicast-Delegates.md"/>
         <toc-element topic="Generic-Delegates.md"/>
+        <toc-element topic="Anonymouse-Methods.md"/>
+        <toc-element topic="Lambda-Expressions.md"/>
+        <toc-element topic="Events.md"/>
     </toc-element>
     <toc-element topic="Multithreading.md"/>
 </instance-profile>
