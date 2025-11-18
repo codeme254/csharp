@@ -18,4 +18,9 @@
         <description>Created after removal of "Delegates and Lambda Expressions" from C#.Net</description>
         <accepts>Delegates-and-Lambda-Expressions.html</accepts>
     </rule>
+    <rule id="336c60ab">
+        <description>Created after removal of "Passing Data to Thread Functions in a Type Safe Manner" from C#.Net
+        </description>
+        <accepts>Passing-Data-to-Thread-Functions-in-a-Type-Safe-Manner.html</accepts>
+    </rule>
 </rules>
