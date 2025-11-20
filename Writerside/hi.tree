@@ -75,5 +75,7 @@
         <toc-element topic="How-to-Pass-Data-to-Thread-Function-in-Type-Safe-Manner.md"/>
         <toc-element topic="How-to-Retrieve-Data-from-a-Thread-Function.md"/>
         <toc-element topic="Join-Method-and-IsAlive-Property-of-Thread-Class.md"/>
+        <toc-element topic="Thread-Synchronization.md"/>
+        <toc-element topic="Thread-Synchronization-Through-Monitor-Class.md"/>
     </toc-element>
 </instance-profile>
