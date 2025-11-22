@@ -257,3 +257,110 @@ namespace TryEnterDemo
 
 ![Example output](multithreading-try-enter-output.png)
 
+## Example to Understand Wait() and Pulse() Methods of the Monitor Class
+The Wait() Method of Monitor Class is used to Release the lock on an object in order to permit other threads 
+to lock and access the object.
+
+The Pulse signals are used to notify waiting threads about changes to a locked object’s state. 
+
+Assuming we want to print even and odd numbers using two different threads, one thread will print even numbers, the
+other will print odd numbers:
+```
+Thread T1: 0,2,4,6,8…
+Thread T2: 1,3,5,7,9…
+Output: 0,1,2,3,4,5,6,7,8,9…
+```
+
+In the following example, we use the Monitor.Wait() method to make the thread waiting and Monitor.Pulse() 
+method is used to signal other threads. The process is as follows:
+- First, the Even thread will start to print the number on the console.
+- Then, the Even thread will signal the Odd thread to be ready to print the next number using the 
+Monitor.Pulse() method.
+- Then, the Event thread will call the Monitor.Wait() method, which will allow the current thread to block 
+and the Odd thread to start execution.
+- The Odd Thread will also do the same thing.
+- The Odd thread will start to print the number on the console.
+- Then, the Odd thread will signal the Even thread to be ready to print the next number using the
+Monitor.Pulse() method.
+- Then the Odd thread will call the Monitor.Wait() method, which will allow the current thread to block and 
+allow the Even thread to start execution.
+
+```C#
+using System;
+using System.Threading;
+
+namespace MonitorClass
+{
+    internal class Program
+    {
+        const int numberLimit = 20;
+        static readonly object _lockMonitor = new object();
+        static void Main(string[] args)
+        {
+            Thread EvenThread = new Thread(PrintEvenNumbers);
+            Thread OddThread = new Thread(PrintOddNumbers);
+
+            EvenThread.Start();
+            // Let's Pause for 10ms to guarantee that the even thread will always start first
+            Thread.Sleep(100);
+            OddThread.Start();
+
+            // Main thread should wait for all the child threads to complete
+            EvenThread.Join();
+            OddThread.Join();
+        }
+
+        static void PrintEvenNumbers()
+        {
+            try
+            {
+                Monitor.Enter(_lockMonitor);
+                for (int i = 0; i < numberLimit; i = i + 2)
+                {
+                    Console.Write($"{i} ");
+
+                    // notify the odd thread to print the next number
+                    Monitor.Pulse(_lockMonitor);
+
+                    // it will wait here until the odd thread notifies it
+                    if (i <= numberLimit)
+                    {
+                        // The thread will wait here till the odd thread notifies it
+                        Monitor.Wait(_lockMonitor);
+                    }
+                }
+            }
+            finally
+            {
+                // Release the lock
+                Monitor.Exit(_lockMonitor);
+            }
+        }
+
+        static void PrintOddNumbers()
+        {
+            try
+            {
+                Monitor.Enter(_lockMonitor);
+                for (int i = 1; i < numberLimit; i = i + 2)
+                {
+                    Console.Write($"{i} ");
+
+                    // Notify the even thread to be ready to print the next number
+                    Monitor.Pulse(_lockMonitor);
+
+                    if (i < numberLimit - 1)
+                    {
+                        Monitor.Wait(_lockMonitor);
+                    }
+                }
+            }
+            finally
+            {
+                Monitor.Exit(_lockMonitor);
+            }
+        }
+    }
+}
+
+```

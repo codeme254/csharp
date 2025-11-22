@@ -77,5 +77,6 @@
         <toc-element topic="Join-Method-and-IsAlive-Property-of-Thread-Class.md"/>
         <toc-element topic="Thread-Synchronization.md"/>
         <toc-element topic="Thread-Synchronization-Through-Monitor-Class.md"/>
+        <toc-element topic="Thread-Synchronization-With-Mutex-Class.md"/>
     </toc-element>
 </instance-profile>
