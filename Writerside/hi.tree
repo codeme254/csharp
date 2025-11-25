@@ -85,5 +85,7 @@
         <toc-element topic="Advantages-and-Disadvantages-of-Arrays.md"/>
         <toc-element topic="Collections-in-C.md"/>
         <toc-element topic="Non-Generic-ArrayList-Collection.md"/>
+        <toc-element topic="Non-Generic-Hashtable-Collection.md"/>
+        <toc-element topic="Non-Generic-Stack-Collection.md"/>
     </toc-element>
 </instance-profile>
