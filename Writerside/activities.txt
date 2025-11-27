@@ -1,0 +1,6 @@
+- Rock, Paper Scissors
+- Number Guessing Game
+- Build your own C# non-generic stack
+    - Implement: Push, Pop, Peek, Contains, Initialization
+- Build your own C# non-generic Queue
+    - Implement: Enqueue, Dequeue, Peek, Contains

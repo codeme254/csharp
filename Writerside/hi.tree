@@ -87,5 +87,8 @@
         <toc-element topic="Non-Generic-ArrayList-Collection.md"/>
         <toc-element topic="Non-Generic-Hashtable-Collection.md"/>
         <toc-element topic="Non-Generic-Stack-Collection.md"/>
+        <toc-element topic="Non-Generic-Queue-Collection.md"/>
+        <toc-element topic="Non-Generic-SortedList-Collection.md"/>
+        <toc-element topic="Advantages-and-Disadvantages-of-Non-Generic-Collections.md"/>
     </toc-element>
 </instance-profile>
