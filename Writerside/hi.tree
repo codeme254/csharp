@@ -96,5 +96,6 @@
         <toc-element topic="Advantages-and-Disadvantages-of-Non-Generic-Collections.md"/>
         <toc-element topic="Generic-Collections.md"/>
         <toc-element topic="Generic-List-Collection.md"/>
+        <toc-element topic="Generic-Dictionary-Collection.md"/>
     </toc-element>
 </instance-profile>
