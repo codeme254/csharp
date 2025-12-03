@@ -99,5 +99,7 @@
         <toc-element topic="Generic-Dictionary-Collection.md"/>
         <toc-element topic="Generic-Stack-Collection.md"/>
         <toc-element topic="Generic-Queue-Collection.md"/>
+        <toc-element topic="Generic-Hashset-Collection.md"/>
+        <toc-element topic="Generic-SortedList-Collection.md"/>
     </toc-element>
 </instance-profile>
