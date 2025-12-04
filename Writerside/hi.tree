@@ -101,5 +101,7 @@
         <toc-element topic="Generic-Queue-Collection.md"/>
         <toc-element topic="Generic-Hashset-Collection.md"/>
         <toc-element topic="Generic-SortedList-Collection.md"/>
+        <toc-element topic="Generic-SortedSet-Collection.md"/>
+        <toc-element topic="Generic-SortedDictionary-Collection.md"/>
     </toc-element>
 </instance-profile>
