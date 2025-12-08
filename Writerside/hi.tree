@@ -104,4 +104,9 @@
         <toc-element topic="Generic-SortedSet-Collection.md"/>
         <toc-element topic="Generic-SortedDictionary-Collection.md"/>
     </toc-element>
+    <toc-element topic="File-Handling.md">
+        <toc-element topic="FileStream-Class.md"/>
+        <toc-element topic="StreamReader-and-StreamWriter.md"/>
+        <toc-element topic="File-Class.md"/>
+    </toc-element>
 </instance-profile>

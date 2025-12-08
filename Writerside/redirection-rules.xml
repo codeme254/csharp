@@ -23,4 +23,8 @@
         </description>
         <accepts>Passing-Data-to-Thread-Functions-in-a-Type-Safe-Manner.html</accepts>
     </rule>
+    <rule id="141f1c50">
+        <description>Created after removal of "Generic LinkedList Collection" from C#.Net</description>
+        <accepts>Generic-LinkedList-Collection.html</accepts>
+    </rule>
 </rules>
