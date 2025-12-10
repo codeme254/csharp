@@ -27,4 +27,8 @@
         <description>Created after removal of "Generic LinkedList Collection" from C#.Net</description>
         <accepts>Generic-LinkedList-Collection.html</accepts>
     </rule>
+    <rule id="6f16d9e">
+        <description>Created after removal of "Asynchronous Programming" from C#.Net</description>
+        <accepts>Asynchronous-Programming.html</accepts>
+    </rule>
 </rules>
